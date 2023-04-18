@@ -1,0 +1,12 @@
+string 
+def  - function 
+
+collection - list 
+
+
+function --> collection of instruction - execute when we call 
+            we get output 
+
+            reuse -> 
+
+def 
