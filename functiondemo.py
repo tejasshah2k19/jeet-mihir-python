@@ -40,8 +40,17 @@ def sqr(n):
 
 #mobile -> battery ?
 
+def cube(b):
+    return a*a*a
 
+def sum(*a):
+    s = 0
+    for data in a:
+        s = s + data 
 
+sum(1)
+sum(1,2)
+sum(23,23,4,435,5)
 
 print("out of the function ")
 
