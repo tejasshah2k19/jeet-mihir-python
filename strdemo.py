@@ -60,7 +60,10 @@ print(data[::-1])
     1) jony jony yes papa
        JonY JonY YeS PapA 
     2) palindrome
-    3)    
+    3) email validaion 
+        tejas123@royaledu.in
+
+
 
 """ 
 
@@ -68,6 +71,8 @@ print(data[::-1])
 ''' 
     multiline comment 
 '''
+
+
 
 
 
