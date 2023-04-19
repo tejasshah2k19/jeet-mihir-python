@@ -9,4 +9,26 @@ function --> collection of instruction - execute when we call
 
             reuse -> 
 
-def 
+# 
+take two numbers from user in getdata function , 
+this function will return odd number from both if both are odd 
+then return max from it. 
+
+now use this number to check its prime or not using 
+prime(num) function. 
+prime function return 1 if num is prime and -1 if not prime 
+
+print 1 or -1 in the output screen
+
+17,20 
+1 
+
+30,9
+-1 
+
+15,19 
+1 
+
+20,40
+-1
+

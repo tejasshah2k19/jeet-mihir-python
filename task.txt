@@ -1,0 +1,34 @@
+#
+
+Game - Two Player 
+
+cards -> 52 [positive numbers ]
+    enter size = 10 
+	masterDeck [ 10 5 25 22 63 63 22 9 ] 
+
+A 26				B 26 
+	aDeck			bDeck
+			8	10
+	battle ->	b is winner so 8 and 10 append into bDeck 
+	
+	
+aDeck [10 25 63 22] 		bDeck[5 22 63  9]
+			   battle=>10	5
+	  [25 63 22]			[22 63 9] 	
+			      a win 
+	  [25 63 22 10 5 ] 		      
+			   battle => 25 22 
+	 [ 63 22 10 5 ] 	[63 9]
+	  		    a win 
+	  [ 63 22 10 5 25 22 ] 	[63 9]
+			battle => 63	63
+      [   22 10 5 25 22 ] 	[ 9]
+                tie 
+			battle => 22    9  {63 63 22 9}
+             a win 
+	  [10 5 25 22 63 63 22 9]  [ ]
+            battle? b is empty? 
+			A is winner 
+			
+play till either A or B has 0 card and declare winner 
+game can draw also.

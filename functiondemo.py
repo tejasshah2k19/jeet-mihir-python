@@ -28,6 +28,7 @@ def mul():
 # return with argument 
 
 def sqr(n):
+    //print 
     return n*n
 
 
